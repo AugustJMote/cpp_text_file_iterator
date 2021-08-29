@@ -13,5 +13,5 @@ while(auto line = text_file.get_line())
 or
 ```c_cpp
 for(auto line: BufferedTextFile("/proc/self/status"))
-      std::cout << *line << std::endl;
+      std::cout << line << std::endl;
 ```
