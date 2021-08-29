@@ -1,5 +1,5 @@
 # Fast Buffered Text File Iterator.
-A simple buffered text file iterator that returns std::optional<std::string_view>s or dereferenceable iterators with a beyond-the-end iterator for a light_weight view into a text file by line.
+A simple buffered text file iterator that returns std::optional\<std::string_view\>s or dereferenceable iterators with a beyond-the-end iterator for a light_weight view into a text file by line.
 
 3x faster then std::ifstream + std::getline().
 
